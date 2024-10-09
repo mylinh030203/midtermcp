@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "873186346138",
+    "firebase_url": "https://midterm-cross-platform-default-rtdb.firebaseio.com",
+    "project_id": "midterm-cross-platform",
+    "storage_bucket": "midterm-cross-platform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873186346138:android:2a7cfc255b5d9ac2350b23",
+        "android_client_info": {
+          "package_name": "com.example.midtermcp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQh4ulvy9EF5yI_e5ox-zuxYPk5N0tWAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
