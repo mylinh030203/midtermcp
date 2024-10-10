@@ -13,7 +13,7 @@ class FirebaseService {
 
 
   // USER RELATED METHODS
-
+  //  snapshot là một bản sao của dữ liệu tại một thời điểm cụ thể
   // Đăng ký người dùng mới
   Future<void> registerUser(UserModel user) async {
     DatabaseReference usersRef = _dbRef.child('users');
@@ -173,6 +173,3 @@ class FirebaseService {
 
 }
 
-extension on DatabaseEvent {
-  get value => null;
-}

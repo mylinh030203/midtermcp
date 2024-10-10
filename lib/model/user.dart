@@ -1,7 +1,7 @@
 class UserModel {
   String id;
   String email;
-  String password; // Lưu ý: Không nên lưu mật khẩu dưới dạng plain text trong thực tế
+  String password;
   String name;
 
   UserModel({

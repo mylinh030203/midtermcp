@@ -22,9 +22,9 @@ class ProductListView extends StatelessWidget {
             icon: Icon(Icons.logout),
             onPressed: () {
               userViewModel.logout();
-              Navigator.pushReplacement(
+              Navigator.pushReplacement( 
                 context,
-                MaterialPageRoute(builder: (_) => LoginView()),
+                MaterialPageRoute(builder: (_) => LoginView()), // Chuyển sang trang đăng nhap
               );
             },
           ),
@@ -48,7 +48,7 @@ class ProductListView extends StatelessWidget {
                               ? CachedNetworkImage(
                                   imageUrl: product.imageUrl,
                                   placeholder: (context, url) =>
-                                      CircularProgressIndicator(),
+                                      CircularProgressIndicator(), // Hien thi loading
                                   errorWidget: (context, url, error) =>
                                       Icon(Icons.error),
                                   width: 100,
@@ -79,7 +79,7 @@ class ProductListView extends StatelessWidget {
                           ),
                           // Các nút chỉnh sửa và xóa
                           Row(
-                            mainAxisSize: MainAxisSize.min,
+                            mainAxisSize: MainAxisSize.min, 
                             children: [
                               IconButton(
                                 icon: Icon(Icons.edit, color: Colors.blue),

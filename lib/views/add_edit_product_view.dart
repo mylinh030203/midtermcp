@@ -126,7 +126,7 @@ class _AddEditProductViewState extends State<AddEditProductView> {
         title: Text(isEdit ? 'Sửa Sản Phẩm' : 'Thêm Sản Phẩm'),
       ),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(16.0), 
         child: isLoading
             ? Center(child: CircularProgressIndicator())
             : Form(
